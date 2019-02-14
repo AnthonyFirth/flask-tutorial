@@ -3,8 +3,8 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route("/")
-def htmlcancer():
-    return render_template("htmlcancer.html")
+def landingpage():
+    return render_template("landingpage.html")
 @app.route("/anotherpage")
 def anotherpage():
     return render_template("anotherpage.html")
